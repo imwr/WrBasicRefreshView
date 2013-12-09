@@ -4,7 +4,7 @@ Do you know EGOTableViewPullRefresh?Yes,It's a great pull down to refresh contro
 
 WrBasicRefreshView is very simple,and you can use it just like this:
 
-1. add "wrrefresh" fold to your project;
+1. add "wrrefresh" folder to your project;
 2. init "WrBasicRefreshView" by calling initRefresh method,for example:
 
    //=============**start**============
