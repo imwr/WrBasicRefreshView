@@ -174,7 +174,7 @@
 }
 
 - (void)wrBasicRefreshUpdatingData:(WrBasicRefreshView*)wrView{
-    if ([delegate respondsToSelector:@selector(wrBasicRefreshUpdatingData)]) {
+    if ([delegate respondsToSelector:@selector(wrBasicRefreshUpdatingData:)]) {
 		[delegate wrBasicRefreshUpdatingData:self];
         if(_timeout > 0){
             [self performSelector:@selector(isLoadedData) withObject:nil afterDelay:_timeout];
